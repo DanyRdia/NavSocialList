@@ -46,3 +46,14 @@ header div h1{
     font-family: Deltronik20;
 
 }
+
+body .containermenu{
+    height: 1200px;
+    width: 100%;
+}
+
+body nav{
+    margin:0 auto;
+    display: flex;
+    width: 70%;
+}
