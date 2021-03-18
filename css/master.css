@@ -1,4 +1,6 @@
-
+*{
+    border: 1px white solid;
+}
 @font-face {
     font-family:Deltronik20
     src:url("/fonts/Deltronik20-Regular.otf");
@@ -47,7 +49,7 @@ header div h1{
 body .containermenu{
     height: 100%;
     width: 100%;
-position: absolute;
+position: fixed;
     left: 0%;
     bottom: 0%;
 }
@@ -85,7 +87,7 @@ body nav ol li a{
 }
 
 footer{
-    height: 200px;
+    height:200px;
     width: 100%;
     background-color: #34a99cff;
     display: flex;
@@ -97,8 +99,11 @@ footer{
 }
 
 footer p{
-    display: inline;
+    display: flex;
     margin: 0 auto;
+    padding: 0px;
+
+
 }
 
 @@media query {
